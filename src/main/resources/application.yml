@@ -1,0 +1,17 @@
+server:
+  port:5001
+
+
+spring:
+  application:
+    name:USER-SERVICE
+
+  jpa:
+    hibernate:
+      ddl-auto:update
+
+  data-source:
+    url:
+    username: root
+    password: Biwajit@091
+    driver-class-name: com.mysql.cj.jdbc.Driver
